@@ -1,6 +1,6 @@
 module.exports = {
 	StartHello: [
-		'OK, adicione o bot @${botName} como administrador do seu canal, e defina as regras para \'add & edit post\'. ',
+		'OK, adicione o bot @${botName} como administrador do seu canal, e defina as regras para \'adicionar & editar postagem\'. ',
 		'Todas as novas postagens terão botões de comentários se você definir \'auto\' nas configurações ou ',
 		'adicionar botão à postagem selecionada.\n',
 		'Manual completo (em inglês) telegra.ph/CommentsUser-en-03-20'
@@ -25,47 +25,47 @@ module.exports = {
 	UpdateLinkToChannel: 'Atualizar o link do canal ${emoji.link}',
 	CheckYes: '${emoji.ballot_box_with_check}',
 	CheckNo: '${emoji.white_medium_square}',
-	ForwardChannelPostHere: 'Encaminhe uma postagem do canal\ para o bot ${emoji.robot_face}',
+	ForwardChannelPostHere: 'Encaminhe uma postagem do canal para o bot ${emoji.robot_face}',
 	YouNotAChannelAdmin: 'Você (ou o bot) não são administradores do canal. Adicione o bot como administrador e tente novamente',
 	SendInviteLink: 'Por favor, copie o <i>link de convite</i> das configurações do canal, e envie para mim',
 	InviteLinkSaved: 'Link de convite gravado',
 	InviteLinkNotSaved: 'Link de convite não gravado, tente novamente mais tarde (normalmente os links se parecem com <i>https://t.me/joinchat/AAAAAAAA_BbBbBbb-111Cccc</i>)',
 	AddCommentToPost: 'Comentário adicionado à postagem',
-	NotAddCommentToPost: 'Comment not added to post',
+	NotAddCommentToPost: 'Comentário não adicionado à postagem',
 	CommentsDeletedByAdmin: [
-		'Comments by user ${userId} deleted. ',
-		'User banned - he can\'t be able to write new comments at this channel'
+		'Comentários do usuário ${userId} apagado. ',
+		'Usuário banido - ele não poderá adicionar novos comentários a este canal'
 	],
-	UserBannedMsg: 'You are banned at this channel and can\'t add comments. Try another channel.',
-	AwaitForPublishing: 'Await for publishing...',
+	UserBannedMsg: 'Você foi banido deste canal e não poderá adicionar novos comentários. Tente um outro canal.',
+	AwaitForPublishing: 'Aguardando publicação...',
 	ThisIsAHelperBot: [
-		'This is a helper bot. ',
-		'Press \'answer\' for selected comment ',
-		'or go to @CommentsUser channel for help'
+		'Este é um bot de ajuda. ',
+		'Escolha \'resposta\' para o comentário selecionado ',
+		'ou acesse o canal @CommentsUser para ajuda'
 	],
-	WatchBotIsOn: 'Bot is turned on. Go to settings ${emoji.gear}',
-	WatchOpenSettings: 'Settings ${emoji.gear}',
-	WatchGoToSetting: 'Settings to subscribe for reply or new comments',
+	WatchBotIsOn: 'O bot foi ativado. Vá para as configurações ${emoji.gear}',
+	WatchOpenSettings: 'Configurações ${emoji.gear}',
+	WatchGoToSetting: 'Configurações para se inscrever em novas respostas ou comentários',
 
-	WatchSettingsReplyAll: 'watch',
-	WatchSettingsRemoveAll: 'remove',
+	WatchSettingsReplyAll: 'acompanhar',
+	WatchSettingsRemoveAll: 'remover',
 
-	WatchSettingsReply: 'reply to you',
-	WatchSettingsLevel1: '1st level',
-	WatchSettingsAll: 'any',
+	WatchSettingsReply: 'respostas a você',
+	WatchSettingsLevel1: '1o nível',
+	WatchSettingsAll: 'qualquer',
 
-	WatchReplyAll: 'Subscribe to <i>any reply</i> to you (recomended for all)',
+	WatchReplyAll: 'Acompanhe <i>qualquer resposta</i> a você (recomendado)',
 	WatchSettingsChannel: [
-		'subscribe to comments ',
-		'(1st level comments: recomended for admin)'
+		'inscreva-se em comentários ',
+		'(comentários de 1o nível: recomendado para administradores)'
 	],
-	WatchSettingsPost: 'subscribe to comments',
-	WatchRemoveAll: 'Remove <i>all</i> watchers',
-	YouGetComment: 'comment by',
-	YouGetReply: 'reply by',
-	AnswerToComment: 'Answer ${emoji.pencil2}',
-	FromChannel: 'Channel',
-	FromPost: 'post',
-	PublishError: 'Don\'t know what to publish. Try return here from some channel post',
+	WatchSettingsPost: 'inscreva-se em comentários',
+	WatchRemoveAll: 'Remover <i>todos</i> os observadores',
+	YouGetComment: 'comentário de',
+	YouGetReply: 'resposta de',
+	AnswerToComment: 'Resposta ${emoji.pencil2}',
+	FromChannel: 'Canal',
+	FromPost: 'postagem',
+	PublishError: 'Não sei o que publicar. Tente voltar aqui a partir de alguma postagem do canal',
 	SeparatePostText: '⭐'
 }
