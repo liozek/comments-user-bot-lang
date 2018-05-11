@@ -10,7 +10,7 @@ module.exports = {
 	linkIcon: '${emoji.globe_with_meridians}',
 	linkImage: '${emoji.frame_with_picture}',
 	Back: 'Voltar',
-	toTred: 'para o tópico ${emoji.speech_balloon}',
+	toTred: 'para tópico ${emoji.speech_balloon}',
 	AnswerToUser: 'Resposta',
 	pencilIcon: '${emoji.pencil2}',
 	utc: 'utc',
