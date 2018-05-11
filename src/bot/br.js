@@ -1,6 +1,6 @@
 module.exports = {
 	StartHello: [
-		'OK, adicione o bot @${botName} como administrador do seu canal, e defina as regras para \'adicionar & editar postagem\'. ',
+		 o bot @${botName} como administrador do seu canal, e defina as regras para \'adicionar & editar postagem\'. ',
 		'Todas as novas postagens terão botões de comentários se você definir \'auto\' nas configurações ou ',
 		'adicionar botão à postagem selecionada.\n',
 		'Manual completo (em inglês) telegra.ph/CommentsUser-en-03-20'
